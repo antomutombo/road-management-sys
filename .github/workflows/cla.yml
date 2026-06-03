@@ -17,6 +17,7 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           path-to-signatures: 'signatures/cla.json'
-          path-to-document: 'https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/CLA.md'
+          path-to-document: 'https://github.com/antomutombo/road-management-sys/blob/main/CLA.md'
           branch: 'main'
+          remote-repository-name: signatures
           allowlist: bot*
